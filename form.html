@@ -1,0 +1,83 @@
+<html>
+<title>Form Lengkap</title>
+<head>
+    <title>OLINSCRA</title>
+    <link rel="stylesheet" href="layout2.css">
+<body>
+<form method="get">
+<h2 align=center>FORMAT PEMESANAN OLINSCRA</h2><hr>
+<p>
+<label>Nama Lengkap
+<input type="text" name="nama_pelanggan" required>
+</label> 
+</p>
+
+
+<p>
+<label>Telepon seluler
+<input type="tel" name="telepon">
+</label>
+</p>
+
+<p>
+<label>No. WhatsApp
+<input type="tel" name="no_wa">
+</label>
+</p>
+
+<p>
+<label>Username IG
+<input type="tel" name="nama_pengguna">
+</label>
+</p>
+
+<p>
+<label>Nama Penerima
+<input type="text" name="nama_penerima" required>
+</label> 
+</p>
+
+<p>
+<label>Alamat Penerima
+<input type="text" name="alamat" required>
+</label> 
+</p>
+
+<fieldset>
+<legend>Variasi SANDOADJA yang di pesan?</legend>
+<p><label> <input type="checkbox" name="produk" required value="strawberry"> SCRUNCHIE </label></p>
+<p><label> <input type="checkbox" name="produk" required value="sunkist">PITA</label></p>
+<p><label> <input type="checkbox" name="produk" required value="kiwi"> KOREAN</label></p>
+ 
+</fieldset>
+
+<fieldset>
+<legend>Pengemasan </legend>
+<p><label> <input type="checkbox" name="extras" value="baby"> BOXED </label></p>
+<p><label> <input type="checkbox" name="extras" value="wheelchair">  JUST PLASTIC </label></p>
+<p><label> <input type="checkbox" name="extras" value="tip"> BULK </label></p>
+</fieldset>
+
+<fieldset>
+<legend>Jasa pengiriman </legend>
+<p><label> <input type="radio" name="extras" value="baby"> GRAB SEND/GOSEND  </label></p>
+<p><label> <input type="radio" name="extras" value="wheelchair"> DROPSHIP </label></p>
+<p><label> <input type="radio" name="extras" value="wheelchair"> JNE </label></p>
+</fieldset>
+
+<p>
+<label>Pickup Date/Time
+<input type="datetime-local" name="pickup_time" required>
+</label>
+</p>
+	
+
+<p>
+<label>Catatan
+<textarea name="comments" maxlength="1800"></textarea>
+</label>
+</p>
+
+<p><button>Submit Booking</button></p>
+
+</form>
